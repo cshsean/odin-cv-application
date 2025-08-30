@@ -1,0 +1,36 @@
+.topHeaderContainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    background-color: 	#02474d;
+    margin: 0;
+    color: white;
+    padding: 24px 0; 
+}
+
+.TopHeaderNameContainer {
+    font-weight: bold;
+    font-size: 32px;
+    line-height: 1;       
+    padding: 8px 0px 16px 0px;       
+    margin: 0;  
+}
+
+.topHeaderInfoContainer {
+    padding: 8px;
+}
+
+.TopHeaderInfoContainer ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+.TopHeaderInfoContainer li p {
+    margin: 0;
+    font-size: 14px;
+}

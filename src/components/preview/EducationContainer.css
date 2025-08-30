@@ -1,0 +1,60 @@
+.educationContainer {
+  display: flex;
+  flex-direction: column; 
+  align-items: flex-start;
+  background-color: #f0f0f0;
+  margin: 2rem 3rem;
+  padding: 1rem;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.educationTitle {
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 0.5rem;
+  width: 100%; 
+}
+
+.educationHistoryList {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem; 
+  width: 100%;
+  font-weight: normal; 
+  font-size: 1rem;
+}
+
+.educationHistoryItem {
+  display: flex;
+  flex-direction: row;  
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.studyDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+.studyDate {
+  min-width: 120px; 
+  font-size: 1rem;
+  color: #555;
+}
+
+.educationDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+.educationHistoryItem h3 {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.educationHistoryItem p {
+  margin: 0.25rem 0;
+  font-size: 1rem;
+}

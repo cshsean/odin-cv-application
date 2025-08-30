@@ -1,0 +1,59 @@
+.workContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  background-color: #f0f0f0;
+  margin: 2rem 3rem;
+  padding: 1rem;
+}
+
+.workTitle {
+  margin-bottom: 1rem;
+  border-bottom: 2px solid #ccc;
+  padding-bottom: 0.5rem;
+  width: 100%;
+  font-weight: bold;
+  font-size: 1.4rem;
+}
+
+.workHistoryList {
+  display: flex;
+  flex-direction: column;
+  gap: 1.5rem;
+  width: 100%;
+}
+
+.workHistoryItem {
+  display: flex;
+  flex-direction: row;
+  gap: 2rem;
+  align-items: flex-start;
+}
+
+.workDate {
+  min-width: 120px;
+  font-size: 1rem;
+  color: #555;
+}
+
+.workDetails {
+  display: flex;
+  flex-direction: column;
+}
+
+.workName {
+  margin: 0;
+  font-size: 1.1rem;
+  font-weight: bold;
+}
+
+.workPosition {
+  margin: 0.25rem 0 0;
+  font-size: 1rem;
+}
+
+.workResponsibilities {
+  margin: 0.25rem 0 0;
+  font-size: 0.95rem;
+  color: #333;
+}

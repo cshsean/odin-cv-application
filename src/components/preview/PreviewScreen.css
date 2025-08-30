@@ -1,0 +1,7 @@
+.previewContainer {
+    width: 60%;
+    height: auto;
+    min-height: fit-content; 
+    margin: 2rem;
+    background-color: white;
+}
